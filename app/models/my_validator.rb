@@ -10,7 +10,7 @@ class MyValidator < ActiveModel::Validator
     when "Guess"
       true
     else
-      false
+      true
     end
   end
 end
